@@ -33,7 +33,7 @@ export default function Sugestao(){
                     <img src={i.image} />
                     <div class="texto">
                         <div class="nome">{i.usuario}</div>
-                        <div class="razao">S{i.razao}</div>
+                        <div class="razao">{i.razao}</div>
                     </div>
                 </div>
                 <div class="seguir">Seguir</div>

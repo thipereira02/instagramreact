@@ -33,9 +33,9 @@ export default function Post(){
     return(
         dados.map(i => (
             <div class="post">
-                <Topo />
-                <Conteudo conteudo="{i.conteudo}"/>              
-                <Fundo />
+                <Topo topo={i.topo}/>
+                <Conteudo conteudo={i.conteudo}/>              
+                <Fundo curtidas={i.curtidas}/>
             </div>
         ))
     );

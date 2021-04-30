@@ -1,4 +1,4 @@
-import LinkAcoes from "./acoestopo_components/LinkAcoes";
+import LinkAcoes from "./LinkAcoes";
 
 export default function AcoesTopo(){
     return(

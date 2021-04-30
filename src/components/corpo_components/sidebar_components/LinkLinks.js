@@ -1,7 +1,7 @@
 export default function LinkLinks(props){
     return(
         <div class="links">
-            {opc1} • {opc2} • {opc3} • {opc4} • {opc5} • {opc6} • {opc7} • {opc8} • {opc9} • {opc10} • {opc11}
+            {props.opc1} • {props.opc2} • {props.opc3} • {props.opc4} • {props.opc5} • {props.opc6} • {props.opc7} • {props.opc8} • {props.opc9} • {props.opc10} • {props.opc11}
         </div>
     );
 }

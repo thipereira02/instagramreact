@@ -2,35 +2,35 @@ export default function Story(){
     const dados = [
         {
             image: "assets/img/9gag.svg",
-            usuario:  "9gag"
+            usuario: "9gag"
         },
         {
             image: "assets/img/meowed.svg",
-            usuario:  "meowed"
+            usuario: "meowed"
         },
         {
             image: "assets/img/barked.svg", 
-            usuario:  "barked"
+            usuario: "barked"
         },
         {
             image: "assets/img/nathanwpylestrangeplanet.svg",
-            usuario:  "nathanwpylestrangeplanet"
+            usuario: "nathanwpylestrangeplanet"
         },
         {
             image: "assets/img/wawawicomics.svg",
-            usuario:  "wawawicomics"
+            usuario: "wawawicomics"
         },
         {
             image: "assets/img/respondeai.svg",
-            usuario:  "respondeai"
+            usuario: "respondeai"
         },
         {
             image: "assets/img/filomoderna.svg",
-            usuario:  "filomoderna"
+            usuario: "filomoderna"
         },
         {
-            image: "assets/img/memeriagourmet.svg"
-            usuario:  "memeriagourmet"
+            image: "assets/img/memeriagourmet.svg",
+            usuario: "memeriagourmet"
         }
     ]
 
