@@ -1,38 +1,49 @@
 export default function Story(){
-    const images = [
-        "assets/img/9gag.svg", 
-        "assets/img/meowed.svg", 
-        "assets/img/barked.svg", 
-        "assets/img/nathanwpylestrangeplanet.svg",
-        "assets/img/wawawicomics.svg",
-        "assets/img/respondeai.svg",
-        "assets/img/filomoderna.svg",
-        "assets/img/memeriagourmet.svg"
-    ]
-
-    const usuarios = [
-        "9gag",
-        "meowed", 
-        "barked",
-        "nathanwpylestrangeplanet",
-        "wawawicomics",
-        "respondeai",
-        "filomoderna",
-        "memeriagourmet"
+    const dados = [
+        {
+            image: "assets/img/9gag.svg",
+            usuario:  "9gag"
+        },
+        {
+            image: "assets/img/meowed.svg",
+            usuario:  "meowed"
+        },
+        {
+            image: "assets/img/barked.svg", 
+            usuario:  "barked"
+        },
+        {
+            image: "assets/img/nathanwpylestrangeplanet.svg",
+            usuario:  "nathanwpylestrangeplanet"
+        },
+        {
+            image: "assets/img/wawawicomics.svg",
+            usuario:  "wawawicomics"
+        },
+        {
+            image: "assets/img/respondeai.svg",
+            usuario:  "respondeai"
+        },
+        {
+            image: "assets/img/filomoderna.svg",
+            usuario:  "filomoderna"
+        },
+        {
+            image: "assets/img/memeriagourmet.svg"
+            usuario:  "memeriagourmet"
+        }
     ]
 
     return(
-        <div class="story">
-            <div class="imagem">
-                {images.map((i) => (
-                    <img src={i} />
-                ))}
-            </div>
-            <div class="usuario">
-                {usuarios.map((u) => (
-                    <>{u}</>
-                ))}
-            </div>
-        </div>
+        dados.map((i) => (
+            <div class="story">
+                <div class="imagem">
+                    <img src={i.image} />
+                </div>
+                <div class="usuario">
+                    <>{i.usuario}</>
+                </div>
+            </div> 
+        ))
     );
 }
