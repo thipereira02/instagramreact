@@ -1,7 +1,8 @@
+import LinkCopyright from "./LinkCopyright";
+
 export default function Copyright(){
     return(
-        <div class="copyright">
-            © 2021 INSTAGRAM DO FACEBOOK
-        </div>
+        <LinkCopyright ano="2021"/>
+        
     );
 }
